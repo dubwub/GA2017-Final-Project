@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F5A43F2F-D3C2-399F-A7D1-F44C8E910C2D}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ga</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ga.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ga</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ga.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ga</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ga.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ga</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ga.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ga</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> $(CMAKE_CXX_FLAGS) %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../../data C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Debug/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4098 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;SDL2-2.0.5\Debug\SDL2.lib;glew32s.lib;opengl32.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64;C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Debug/ga.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Debug/ga.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> $(CMAKE_CXX_FLAGS) %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../../data C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Release/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4098 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;SDL2-2.0.5\Release\SDL2.lib;glew32s.lib;opengl32.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64;C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Release/ga.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/Release/ga.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> $(CMAKE_CXX_FLAGS) %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../../data C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/MinSizeRel/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4098 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;SDL2-2.0.5\MinSizeRel\SDL2.lib;glew32s.lib;opengl32.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64;C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/MinSizeRel/ga.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/MinSizeRel/ga.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> $(CMAKE_CXX_FLAGS) %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\SDL2-2.0.5\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\..\3rdparty\stb;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\3rdparty\glew-2.0.0\include;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/ttf-bitstream-vera-1.10/VeraMono.ttf C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../../data C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/RelWithDebInfo/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 /ignore:4098 /ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;SDL2-2.0.5\RelWithDebInfo\SDL2.lib;glew32s.lib;opengl32.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;dinput8.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64;C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/../3rdparty/glew-2.0.0/lib/Release/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/RelWithDebInfo/ga.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/RelWithDebInfo/ga.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine -BC:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64 --check-stamp-file C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine -BC:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64 --check-stamp-file C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine -BC:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64 --check-stamp-file C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine -BC:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64 --check-stamp-file C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/engine/CMakeLists.txt;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindGLEW.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\engine\rhythm\ga_rhythm_manager.h" />
+    <ClInclude Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\always_copy_data.h" />
+    <ClCompile Include="..\..\src\engine\rhythm\ga_rhythm_manager.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\entity\ga_component.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\entity\ga_entity.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_camera.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_input.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_output.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_sim.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_cube_component.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_material.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_program.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_texture.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_condvar.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_fiber.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_intpool.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_job.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_queue.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\main.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_mat3f.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_mat4f.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_quatf.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec2f.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec3f.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec4f.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_intersection.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_intersection.tests.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_physics_component.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_physics_world.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_rigid_body.cpp" />
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_shape.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/ZERO_CHECK.vcxproj">
+      <Project>61B12ED8-810C-3880-9E69-AA6623C6AF18</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/ALWAYS_COPY_DATA.vcxproj">
+      <Project>53D74F8D-2575-315F-B463-B2C1FDB27848</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Darwin/Documents/RPI/homework-5-dubwub/build/ga5-win64/SDL2-2.0.5/SDL2-static.vcxproj">
+      <Project>21E65874-7B90-38EF-B204-DBC0DFB15341</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

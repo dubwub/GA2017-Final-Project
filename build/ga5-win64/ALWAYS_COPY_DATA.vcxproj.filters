@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\35ae550b813d4544f903ef06bc4dc7f7\ALWAYS_COPY_DATA.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\build\ga5-win64\CMakeFiles\ALWAYS_COPY_DATA" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B93739D4-DAED-32FB-9B01-124413AE7025}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

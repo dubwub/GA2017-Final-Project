@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/3rdparty/SDL2-2.0.5/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/GNUInstallDirs.cmake
+C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/3rdparty/SDL2-2.0.5/cmake/macros.cmake
+C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/3rdparty/SDL2-2.0.5/cmake/sdlchecks.cmake
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Program Files/CMake/share/cmake-3.6/Modules/CheckIncludeFile.c.in
+C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/3rdparty/SDL2-2.0.5/include/SDL_config.h.cmake
+C:/Users/Darwin/Documents/RPI/homework-5-dubwub/src/3rdparty/SDL2-2.0.5/cmake_uninstall.cmake.in

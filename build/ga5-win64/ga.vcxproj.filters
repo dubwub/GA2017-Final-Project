@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\entity\ga_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\entity\ga_entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\framework\ga_sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_cube_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\graphics\ga_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_condvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_fiber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_intpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_job.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\jobs\ga_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_mat3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_mat4f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_quatf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec2f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec3f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\math\ga_vec4f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_intersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_intersection.tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_physics_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_physics_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_rigid_body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\physics\ga_shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\rhythm\ga_rhythm_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\always_copy_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\rhythm\ga_rhythm_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Darwin\Documents\RPI\homework-5-dubwub\src\engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C704E84-9EAB-3A42-A17C-161A6A17097B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A5485D50-AA85-3DF2-8A6A-B073F98D853D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
